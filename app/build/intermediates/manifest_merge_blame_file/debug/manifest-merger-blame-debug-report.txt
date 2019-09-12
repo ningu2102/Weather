@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weathertasktry1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:5:5-79
+11-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+12-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:6:5-82
+12-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:6:22-79
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:7:5-66
+13-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:9:5-24:19
+16        android:allowBackup="true"
+16-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:16:9-40
+25        android:usesCleartextTraffic="true" >
+25-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:12:9-44
+26        <activity android:name="com.example.weathertasktry1.MainActivity" >
+26-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:19:17-69
+28-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:21:17-77
+30-->G:\AndroidStudioProjects\WeatherTaskTry1 - Copy (3)\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[com.karumi:dexter:5.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\9066710e41057f682d540452acaf40f7\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+34            android:name="com.karumi.dexter.DexterActivity"
+34-->[com.karumi:dexter:5.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\9066710e41057f682d540452acaf40f7\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+35            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+35-->[com.karumi:dexter:5.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\9066710e41057f682d540452acaf40f7\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+36
+37        <provider
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\35080b031fbca98793f1c1cb655268c5\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+38            android:name="com.squareup.picasso.PicassoProvider"
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\35080b031fbca98793f1c1cb655268c5\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+39            android:authorities="com.example.weathertasktry1.com.squareup.picasso"
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\35080b031fbca98793f1c1cb655268c5\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+40            android:exported="false" />
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\35080b031fbca98793f1c1cb655268c5\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+41
+42        <activity
+42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+43            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+44            android:exported="false"
+44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+46
+47        <meta-data
+47-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\1098a9a3b3e41199bc1ba2d842186bfc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+48            android:name="com.google.android.gms.version"
+48-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\1098a9a3b3e41199bc1ba2d842186bfc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ningu\.gradle\caches\transforms-2\files-2.1\1098a9a3b3e41199bc1ba2d842186bfc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+50    </application>
+51
+52</manifest>
